@@ -1,0 +1,21 @@
+I want you to act as a senior-level full-stack product designer and strategist. Your task is to help me design a mood-based music playlist generator web application using HTML, CSS, JavaScript, Bootstrap, and the Spotify API.
+
+I do not want any code. I only want you to provide:
+
+Complete feature list — Only practical, high-impact features relevant to a mood-based music app. No fluff.
+
+Page structure — How many pages or sections should the app have? What will each contain?
+
+User flow — Step-by-step journey from landing to playlist generation.
+
+API Integration Plan — Where and how should Spotify API be used (auth, search, recommendations, etc.)?
+
+UI/UX ideas — Bootstrap components, layout ideas, modals, loaders, icons to use. No design files, just structural explanation.
+
+Scalability Ideas — Optional features for future like mood detection via camera/mic, user profile, saving playlists, etc.
+
+Folder/file structure — Ideal front-end project structure (HTML, JS, CSS organization).
+
+Be direct, specific, and strategic. Don't give me tutorials or vague suggestions — I want a sharp, structured roadmap to build a smart, usable, and polished mood-based music app.
+
+Focus only on the planning, logic, and design architecture. No code, no styling — just product blueprint.

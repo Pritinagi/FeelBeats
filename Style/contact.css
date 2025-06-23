@@ -1,0 +1,146 @@
+body {
+            background-color: #f4f1f8; /* Pastel lavender background */
+            font-family: 'Arial', sans-serif;
+        }
+        .contact-section {
+            background-color: #fff7f9; /* Pastel pink card */
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 50px auto;
+        }
+        .form-floating > label {
+            color: #6b7280; /* Pastel gray */
+        }
+        .form-control, .form-select {
+            border-color: #bfcbde; /* Pastel gray border */
+            background-color: #fefbff; /* Off-white input */
+        }
+        .form-control:focus, .form-select:focus {
+            border-color: #a5b4fc; /* Pastel indigo */
+            box-shadow: 0 0 0 0.25rem rgba(165, 180, 252, 0.25);
+        }
+        .input-group-text {
+            background-color: #e0e7ff; /* Pastel blue */
+            border-color: #d1d5db;
+            color: #4b5563;
+        }
+        .btn-primary {
+            background-color: #c3b1e1; /* Pastel purple */
+            border-color: #c3b1e1;
+        }
+        .btn-primary:hover {
+            background-color: #a78bfa; /* Darker pastel purple */
+            border-color: #a78bfa;
+        }
+        
+        .alert {
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .spinner-border {
+            display: none;
+            margin-right: 10px;
+        }
+
+.input-group .form-floating {
+            flex-grow: 1;
+        }
+        .input-group .form-control, .input-group .form-select {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        .form-floating > .form-control:not(:placeholder-shown) ~ label,
+        .form-floating > .form-select ~ label {
+            transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+        }
+
+
+
+
+.profile-section {
+      padding: 30px 5px;
+      /* background-color: #f5f5f5; Light gray background for contrast */
+    }
+    .contact-card {
+      transition: transform 0.3s;
+      text-align: center;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .contact-card:hover {
+      transform: translateY(-5px);
+    }
+    .contact-icon {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .contact-link {
+      text-decoration: none;
+      color: #333;
+      font-size: 1.1rem;
+    }
+    .contact-link:hover {
+      color: #6b7280; /* Soft gray for hover */
+    }
+    /* Pastel colors for each card */
+    .card-email {
+      background-color: #fce4ec; /* Light pink */
+    }
+    .card-email .contact-icon {
+      color: #f06292; /* Slightly darker pink */
+    }
+    .card-github {
+      background-color: #d4f4e2; /* Mint green */
+    }
+    .card-github .contact-icon {
+      color: #4caf50; /* Slightly darker green */
+    }
+    .card-linkedin {
+      background-color: #e3f2fd; /* Baby blue */
+    }
+    .card-linkedin .contact-icon {
+      color: #42a5f5; /* Slightly darker blue */
+    }
+    .card-twitter {
+      background-color: #ede7f6; /* Lavender */
+    }
+    .card-twitter .contact-icon {
+      color: #7e57c2; /* Slightly darker purple */
+    }
+
+  .faq-section {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .accordion-item {
+            background-color: #fff5f9;
+            border: 1px solid #d4c1e9;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .accordion-button {
+            background-color: #e8d7f1;
+            color: #4a2c6b;
+            font-weight: 600;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: #d4c1e9;
+            color: #2b1a45;
+        }
+        .accordion-body {
+            background-color: #fff5f9;
+            color: #333;
+        }
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: #b39ed5;
+        }
+        h2 {
+            color: #4a2c6b;
+            text-align: center;
+            margin-bottom: 30px;
+        }   

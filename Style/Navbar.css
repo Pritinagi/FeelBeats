@@ -1,0 +1,154 @@
+.navbar {
+  background: linear-gradient(90deg, #e0c3fc, #8ec5fc); /* Soft pastel purple to blue gradient, unchanged for continuity */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+  color: #ff0e5a !important; /* Vibrant teal for the logo, replacing coral for a smoother look */
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.nav-link {
+  color: #ffffff !important; /* White links for clean contrast, unchanged */
+  font-size: 1.1rem;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: #ea2a67 !important; /* Teal on hover to match the logo */
+  transform: scale(1.1);
+}
+.btn-outline-primary {
+  border-color: #2acaea; /* Teal border for consistency */
+  color: #2acaea;
+}
+.btn-outline-primary:hover {
+  background-color: #2acaea; /* Teal background on hover */
+  color: #ffffff;
+}   
+.btn-primary {
+  background-color: #2acaea; /* Teal for primary button, aligning with logo for cohesion */
+  border-color: #2acaea;
+  border-radius: 8px; /* Slightly rounded corners for a smoother, less odd appearance */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.btn-primary:hover {
+  background-color: #1ab8d6; /* Slightly darker teal for hover, maintaining vibrancy */
+  border-color: #1ab8d6;
+}
+.fa-music {
+  margin-right: 5px; /* Space between icon and text, unchanged for consistency */
+}
+
+
+
+
+/* hero section  */
+
+    body {
+      background-color: #F3E8FF; /* Pastel purple background */
+      color: #4B3869; /* Darker pastel purple for text */
+    }
+    .hero-section {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      padding: 2rem 0;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #4B3869; /* Pastel dark purple */
+    }
+    p {
+      font-size: 1.25rem;
+      color: #6D8299; /* Muted pastel blue-gray */
+    }
+    .btn-primary {
+      background-color: #FFCCF9; /* Pastel pink */
+      border-color: #FFCCF9;
+      color: #4B3869;
+      font-weight: 600;
+      padding: 0.75rem 1.5rem;
+      border-radius: 50px;
+    }
+    .btn-primary:hover {
+      background-color: #FFB3F6; /* Slightly darker pastel pink */
+      border-color: #FFB3F6;
+    }
+    .svg-container {
+      max-width: 300px;
+      margin: 2rem auto;
+    }
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 3.5rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+
+
+
+
+
+    /* footer */
+footer {
+      background: linear-gradient(135deg, #f8e1e9 0%, #e6d3f8 100%);
+      color: #5a4a6e;
+      padding: 2rem 1rem;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .footer-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ff6688;
+    }
+    .footer-links a {
+      color: #a89cd6;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .footer-links a:hover {
+      color: #ff99cc;
+    }
+    .cta-btn {
+      background-color: #ff99cc;;
+      border-color: #ff99cc;;
+
+      color: white;
+      font-weight: 600;
+      padding: 0.75rem 1.5rem;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    .cta-btn:hover {
+      background-color: #8ec5fc;
+      border-color: #8ec5fc;;
+      transform: scale(1.05);
+      
+    }
+    .social-icons a {
+      color: #5a4a6e;
+      font-size: 1.5rem;
+      margin: 0 0.5rem;
+      transition: color 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #ff6688;
+    }
+    @media (max-width: 767px) {
+      .footer-container {
+        text-align: center;
+      }
+      .cta-btn {
+        margin-top: 1rem;
+      }
+    }

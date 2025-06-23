@@ -1,0 +1,175 @@
+/* supporting hero section image */
+.simg{
+     transition: transform 0.3s ease;
+     cursor: pointer;
+}
+.simg:hover {
+             transform: scale(1.3);
+   /* transform: rotate(360deg); */
+ }
+        
+/* Cards Section */
+        .how-it-works {
+            padding: 60px 20px;
+            text-align: center;
+           
+        }
+        .how-it-works h2 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .how-it-works .tagline {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+        }
+        
+        .card {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+
+        /* Pastel Colors for Each Card */
+        .card:nth-child(1) {
+            background-color: #fce4ec; /* Pastel Pink */
+        }
+
+        .card:nth-child(2) {
+            background-color: #e1f5fe; /* Pastel Blue */
+        }
+
+        .card:nth-child(3) {
+            background-color: #f0f4c3; /* Pastel Yellow */
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+/* choose mood */
+
+body {
+            background-color: #f3e8ff;
+            font-family: 'Arial', sans-serif;
+        }
+        
+
+.mood-card:hover .mood-icon {
+  transform: scale(1.3);
+   transform: rotate(360deg);
+
+}
+
+        .mood-card {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            /* transition: transform 0.3s, box-shadow 0.3s; */
+           
+        }
+        .mood-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .mood-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+        }
+        .mood-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #4b3f72;
+        }
+        .mood-microcopy {
+            font-size: 0.9rem;
+            color: #7c6e9e;
+        }
+        .container {
+            padding: 40px 20px;
+        }
+
+/* footer */
+/* stepss */
+.steps {
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  
+}
+
+.steps:hover {
+  /* transform: rotate(360deg) translateX(0px); */
+  border-radius: 80%;
+  border-bottom-left-radius: 0;
+}
+
+/* Add these styles to your existing home.css file */
+
+/* Selected mood card styling */
+.mood-card.selected {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    border: 2px solid #4b3f72;
+}
+
+.mood-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.mood-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Playlist result cards */
+.playlist-card-result {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.playlist-card-result:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Results section */
+#results {
+    min-height: 200px;
+}
+
+/* Login button states */
+.login-btn {
+    transition: all 0.3s ease;
+}
